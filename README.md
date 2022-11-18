@@ -20,4 +20,4 @@ I created another independent app which used WeatherFramework, as shown in part 
 
 Attached Screenshot:-
 
-![Simulator Screen Shot - iPhone 11 Pro - 2022-11-18 at 12 39 47](https://user-images.githubusercontent.com/118456543/202643234-d3a13ac9-7af5-4415-a93f-215cec473f85.png)
+<img src= "https://user-images.githubusercontent.com/118456543/202645148-1e779ab9-e058-4ad7-9694-c3625dd73ebe.png" width="320" height="580" />
