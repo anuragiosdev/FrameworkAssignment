@@ -15,7 +15,7 @@ created AssignmentWeatherMainApp - Created Framework along with Sample App
 # For Part 2:-
 
 Part2/MainAppUsedCustomFramework
-I created another independent app which used WeatherFramework which I created in part 1
+I created another independent app which used WeatherFramework, as shown in part 1
 
 
 Attached Screenshot:-
