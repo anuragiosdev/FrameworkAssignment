@@ -18,8 +18,8 @@
     [super viewDidLoad];
     
    WeatherService *service = [[WeatherService alloc]init];
-  [service weatherInfoWithLatitude:1.2
-                     withLongitude:2.1
+  [service weatherInfoWithLatitude:18.5204
+                     withLongitude:73.8567
                     withCompletion:^(id<WeatherDetail> _Nonnull weatherDetail) {
       
       NSLog(@"TEMP = %@", weatherDetail.currentTemprature );

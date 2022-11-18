@@ -9,11 +9,15 @@
 
 @implementation WeatherService
 
+-(NSString *) weatherAppID {
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"WeatherAPIKEY"];
+}
+
 -(void) weatherInfoWithLatitude:(double)latitude
                   withLongitude:(double)longitude
                  withCompletion:(void (^)(id <WeatherDetail>))callback {
-  
-    NSString *weathrAPIURL = @"https://api.openweathermap.org/data/2.5/weather?lat=18.5204&lon=73.8567&appid=ed410e7a565fe62ea9dc882317af3d5f";
+    NSString *appID = [self weatherAppID];
+    NSString *weathrAPIURL = [[NSString alloc] initWithFormat: @"https://api.openweathermap.org/data/2.5/weather?lat=%f&lon=%f&appid=%@",latitude,longitude,appID];
     NSURL *url = [NSURL URLWithString: weathrAPIURL];
     
     [self fetchWeatherDataWithURL:url withCompletion:^(id<WeatherDetail> weatherData) {
