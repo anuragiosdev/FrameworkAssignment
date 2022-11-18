@@ -21,7 +21,7 @@
 		DBD57F9D2926929A008C1C9B /* WeatherFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD57F872926929A008C1C9B /* WeatherFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBD57FAA2926A43B008C1C9B /* WeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD57FA82926A43B008C1C9B /* WeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBD57FAB2926A43B008C1C9B /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD57FA92926A43B008C1C9B /* WeatherService.m */; };
-		DBD57FB12926A472008C1C9B /* WeatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD57FAF2926A472008C1C9B /* WeatherData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD57FB12926A472008C1C9B /* WeatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD57FAF2926A472008C1C9B /* WeatherData.h */; };
 		DBD57FB22926A472008C1C9B /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD57FB02926A472008C1C9B /* WeatherData.m */; };
 		DBD57FB92926A4EC008C1C9B /* WeatherProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD57FB82926A4EC008C1C9B /* WeatherProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBD57FBF2926A63F008C1C9B /* WeatherDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD57FBE2926A63F008C1C9B /* WeatherDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -214,9 +214,9 @@
 			files = (
 				DBD57FAA2926A43B008C1C9B /* WeatherService.h in Headers */,
 				DBD57FBF2926A63F008C1C9B /* WeatherDetail.h in Headers */,
-				DBD57FB12926A472008C1C9B /* WeatherData.h in Headers */,
 				DBD57FB92926A4EC008C1C9B /* WeatherProtocol.h in Headers */,
 				DBD57F992926929A008C1C9B /* WeatherFramework.h in Headers */,
+				DBD57FB12926A472008C1C9B /* WeatherData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
