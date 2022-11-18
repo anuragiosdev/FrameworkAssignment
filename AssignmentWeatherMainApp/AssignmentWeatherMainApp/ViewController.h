@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WeatherFramework/WeatherData.h>
 
 @interface ViewController : UIViewController
 
