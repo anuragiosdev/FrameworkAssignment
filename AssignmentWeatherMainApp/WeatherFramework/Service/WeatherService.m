@@ -6,6 +6,7 @@
 //
 
 #import "WeatherService.h"
+#import "WeatherData.h"
 
 @implementation WeatherService
 

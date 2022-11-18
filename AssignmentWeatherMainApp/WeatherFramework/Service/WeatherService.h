@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import "WeatherProtocol.h"
 #import "WeatherDetail.h"
-#import "WeatherData.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

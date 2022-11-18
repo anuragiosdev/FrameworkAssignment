@@ -14,8 +14,8 @@
 		DBD580C729274689008C1C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD580C629274689008C1C9B /* Assets.xcassets */; };
 		DBD580CA29274689008C1C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD580C829274689008C1C9B /* LaunchScreen.storyboard */; };
 		DBD580CD29274689008C1C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD580CC29274689008C1C9B /* main.m */; };
-		DBD580DB29274809008C1C9B /* WeatherFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD580D8292746FC008C1C9B /* WeatherFramework.framework */; };
-		DBD580DC29274809008C1C9B /* WeatherFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD580D8292746FC008C1C9B /* WeatherFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBD580E629276665008C1C9B /* WeatherFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD580E42927665D008C1C9B /* WeatherFramework.framework */; };
+		DBD580E729276665008C1C9B /* WeatherFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD580E42927665D008C1C9B /* WeatherFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DBD580DC29274809008C1C9B /* WeatherFramework.framework in Embed Frameworks */,
+				DBD580E729276665008C1C9B /* WeatherFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +45,7 @@
 		DBD580C929274689008C1C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD580CB29274689008C1C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBD580CC29274689008C1C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DBD580D8292746FC008C1C9B /* WeatherFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeatherFramework.framework; sourceTree = "<group>"; };
+		DBD580E42927665D008C1C9B /* WeatherFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeatherFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD580DB29274809008C1C9B /* WeatherFramework.framework in Frameworks */,
+				DBD580E629276665008C1C9B /* WeatherFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 		DBD580AE2927467C008C1C9B = {
 			isa = PBXGroup;
 			children = (
-				DBD580D8292746FC008C1C9B /* WeatherFramework.framework */,
+				DBD580E42927665D008C1C9B /* WeatherFramework.framework */,
 				DBD580B92927467C008C1C9B /* MainAppUsedCustomFramework */,
 				DBD580B82927467C008C1C9B /* Products */,
 			);

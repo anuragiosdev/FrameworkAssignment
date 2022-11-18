@@ -4,9 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/WeatherData.h</key>
+		<key>.DS_Store</key>
 		<data>
-		KeRkOVLDduNKmp9D9oRkFYVnHTE=
+		QR0WS9tbUyZYKLbYA8VoXZFqDyw=
 		</data>
 		<key>Headers/WeatherDetail.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/WeatherFramework.h</key>
 		<data>
-		NTUSk2DyUyxUR1+2bbIz7wdVOEQ=
+		oYj6FkcV2wrG2oSvri4UK1I5JnI=
 		</data>
 		<key>Headers/WeatherProtocol.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/WeatherService.h</key>
 		<data>
-		Wac85BduAem0JTqB9/y76tEkoG8=
+		k3o9NLvV4r+Xw6yl5J4b37phQDg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -35,13 +35,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/WeatherData.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R5+gicziWa5Bd002oqmLwJyrR1VuhIGU4YWkJdyxflM=
-			</data>
-		</dict>
 		<key>Headers/WeatherDetail.h</key>
 		<dict>
 			<key>hash2</key>
@@ -53,7 +46,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6AwEvsJWtlz7INJ8Q80CuRvfffuyjJlHgCU1ffs1Xig=
+			8oEy1CyMt8FAhBFh9lo68LoWGcKQJHIHOJSoOaxUEKc=
 			</data>
 		</dict>
 		<key>Headers/WeatherProtocol.h</key>
@@ -67,7 +60,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Va4/CT4GAVc4w242fEY5AxJMeE9rS4mylmQqVJ5qXGE=
+			AeLkbIXL9BUqkv5Uw8vqlowXixUQgXOpNi4VVHZbjmA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
